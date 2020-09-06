@@ -17,6 +17,9 @@ read -p "open tools? type y/n :" oke;
 if [ $oke = y ]
 
 then 
+echo "berikan akses pada penyimpanan"
+
+termux-setup-storage
 
 echo "install bahan dulu....."
 
